@@ -64,7 +64,7 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: Colors.grey[300],
       appBar: AppBar(
         title: const Text("The wall", style: TextStyle()),
-        backgroundColor: const Color.fromARGB(255, 135, 128, 128),
+        backgroundColor: Color.fromARGB(255, 190, 178, 83),
       ),
       drawer: MyDrawer(
         onProfile: goToProfilePage,
